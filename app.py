@@ -21,7 +21,15 @@ def homepage():
     return ""
 
 
-    # inputed panel areas list
+
+
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=True)
+
+        # inputed panel areas list
     panel_num_list = [1, 3, 5]
 
     # this is the number of seconds that we are evaluating at for delta T (12 hours)
@@ -365,10 +373,4 @@ def homepage():
 
     # TO DO LATER
     # create a toggle for whether glazed plate and PV panel graph is showing
-
-
-
-
-if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True)
 
