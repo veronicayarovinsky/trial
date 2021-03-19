@@ -18,7 +18,7 @@ app = Flask(__name__)
 def homepage():
     the_time = datetime.now().strftime("%A, %d %b %Y %l:%M %p")
 
-    #
+    return ""
 
 
     # inputed panel areas list
@@ -370,5 +370,5 @@ def homepage():
 
 
 if __name__ == '__main__':
-     app.run(debug=True, use_reloader=True)
+    app.run(debug=True, use_reloader=True)
 
