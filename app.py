@@ -1,6 +1,5 @@
 from flask import Flask
 from datetime import datetime
- Import packages
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -17,11 +16,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-     the_time = datetime.now().strftime("%A, %d %b %Y %l:%M %p")
+    the_time = datetime.now().strftime("%A, %d %b %Y %l:%M %p")
 
     #
 
-    print("_________")
 
     # inputed panel areas list
     panel_num_list = [1, 3, 5]
